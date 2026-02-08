@@ -1,4 +1,4 @@
-﻿[Unit]
+[Unit]
 Description=MAS-004 Videojet 3350 Ultimate Bridge
 After=network-online.target
 Wants=network-online.target

@@ -1,4 +1,4 @@
-﻿# MAS-004_VJ3350-Ultimate-Bridge
+# MAS-004_VJ3350-Ultimate-Bridge
 
 Basis-Client und Daemon fuer Videojet 3350 ueber Ultimate-Protokoll.
 

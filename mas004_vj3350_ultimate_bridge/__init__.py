@@ -1,4 +1,4 @@
-﻿from .client import UltimateBridgeClient
+from .client import UltimateBridgeClient
 from .config import Settings, DEFAULT_CFG_PATH
 from .protocol import build_command, parse_result
 
