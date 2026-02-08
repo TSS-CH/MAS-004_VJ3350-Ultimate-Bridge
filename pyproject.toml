@@ -1,0 +1,12 @@
+﻿[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MAS-004_VJ3350-Ultimate-Bridge"
+version = "0.1.0"
+description = "Videojet 3350 bridge using Ultimate protocol"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["mas004_vj3350_ultimate_bridge"]
