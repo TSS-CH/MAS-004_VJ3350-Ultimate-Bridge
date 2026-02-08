@@ -1,0 +1,9 @@
+﻿{
+  "enabled": true,
+  "simulation": false,
+  "host": "192.168.2.20",
+  "port": 20001,
+  "timeout_s": 2.0,
+  "poll_interval_s": 2.0,
+  "probe_command": "GetVersion"
+}

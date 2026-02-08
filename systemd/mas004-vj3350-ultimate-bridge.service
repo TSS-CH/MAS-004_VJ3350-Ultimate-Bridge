@@ -1,0 +1,17 @@
+﻿[Unit]
+Description=MAS-004 Videojet 3350 Ultimate Bridge
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/MAS-004_VJ3350-Ultimate-Bridge
+ExecStart=/opt/MAS-004_VJ3350-Ultimate-Bridge/.venv/bin/python -m mas004_vj3350_ultimate_bridge --config /etc/mas004_vj3350_ultimate_bridge/config.json
+Restart=always
+RestartSec=2
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

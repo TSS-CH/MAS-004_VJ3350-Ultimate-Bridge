@@ -4,9 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "MAS-004_VJ3350-Ultimate-Bridge"
-version = "0.1.0"
-description = "Videojet 3350 bridge using Ultimate protocol"
+version = "0.2.0"
+description = "Videojet 3350 bridge using Ultimate protocol and service"
 requires-python = ">=3.9"
+
+[project.scripts]
+mas004-vj3350-ultimate-bridge = "mas004_vj3350_ultimate_bridge.service:main"
 
 [tool.setuptools]
 packages = ["mas004_vj3350_ultimate_bridge"]
